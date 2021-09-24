@@ -217,9 +217,10 @@ footer {
             grid-column: 1 / -1;
             font-size: 0.8rem;
             @media (max-width: 900px) {
-                padding: 2rem;  
+                padding: 1rem;  
                 grid-row-start: 3;
                 justify-self: center;
+                margin-top: 3rem;
             }
         }
     }

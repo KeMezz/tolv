@@ -387,11 +387,12 @@ footer .footer___wrapper .copyright {
 
 @media (max-width: 900px) {
   footer .footer___wrapper .copyright {
-    padding: 2rem;
+    padding: 1rem;
     -ms-grid-row: 3;
         grid-row-start: 3;
     -ms-grid-column-align: center;
         justify-self: center;
+    margin-top: 3rem;
   }
 }
 /*# sourceMappingURL=tolv.css.map */
