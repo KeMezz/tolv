@@ -290,11 +290,6 @@ main .sectionA .sectionA___fixedText p span {
   }
 }
 
-.sectionC figure:hover {
-  -webkit-filter: blur(2rem);
-          filter: blur(2rem);
-}
-
 .sectionC .long {
   grid-column: span 2;
   background-position: bottom;

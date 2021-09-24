@@ -158,9 +158,9 @@ main {
             height: 50vw;
             background-position: bottom;
         }
-        &:hover {
-            filter: blur(2rem);
-        }
+        // &:hover {
+        //     filter: blur(2rem);
+        // }
     }
     .long {
         grid-column: span 2;
