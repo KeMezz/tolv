@@ -202,7 +202,7 @@ footer {
         width: 75%;
         @media (max-width: 900px) {
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 2fr 2fr 1fr;
+            grid-template-rows: 3fr 3fr 1fr;
         }
         h4 {
             color: rgba(255,255,255,0.3);
@@ -220,6 +220,7 @@ footer {
                 padding: 1rem;  
                 grid-row-start: 3;
                 justify-self: center;
+                align-self: end;
                 margin-top: 3rem;
             }
         }
