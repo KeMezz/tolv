@@ -1,0 +1,28 @@
+@import "_variables";
+
+@mixin flexCenterAll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin h1 {
+    font-size: calc(1rem + 2.2vw);
+    font-family: $mainFont;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+@mixin h2 {
+    font-size: calc(1rem + 1vw);
+    font-family: $mainFont;
+}
+
+@mixin p {
+    font-size: calc(0.5rem + 0.5vw);
+    span {
+        color: orangered;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
